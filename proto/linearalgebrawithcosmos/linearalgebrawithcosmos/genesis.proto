@@ -1,0 +1,12 @@
+syntax = "proto3";
+package linearalgebrawithcosmos.linearalgebrawithcosmos;
+
+import "gogoproto/gogo.proto";
+import "linearalgebrawithcosmos/linearalgebrawithcosmos/params.proto";
+
+option go_package = "linear-algebra-with-cosmos/x/linearalgebrawithcosmos/types";
+
+// GenesisState defines the linearalgebrawithcosmos module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

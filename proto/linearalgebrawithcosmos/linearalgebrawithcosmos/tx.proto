@@ -1,0 +1,7 @@
+syntax = "proto3";
+package linearalgebrawithcosmos.linearalgebrawithcosmos;
+
+option go_package = "linear-algebra-with-cosmos/x/linearalgebrawithcosmos/types";
+
+// Msg defines the Msg service.
+service Msg {}
